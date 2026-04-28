@@ -32,7 +32,7 @@ Tested on Metasploitable2 — Found 12 open ports:
 - Port 23 | Telnet
 
 ## Author
-Krishan Sharma — Penetration Tester
+Krishan Sharma
 
 ## Disclaimer
 For authorized and educational testing only.
