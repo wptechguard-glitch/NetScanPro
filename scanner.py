@@ -11,10 +11,7 @@ import sys
 # ─── Banner ───────────────────────────
 def banner():
     print("""
-    ╔══════════════════════════════╗
-    ║      NetScan Pro v1.0        ║
-    ║   By: Krishan Sharma         ║
-    ╚══════════════════════════════╝
+         NetScan Pro v1.0  
     """)
 
 # ─── Port Scanner ─────────────────────
