@@ -2,37 +2,58 @@
 
 A Python-based network security assessment tool built for penetration testing practice.
 
-## Features
-- 🔍 TCP Port Scanning
-- 🎯 Banner Grabbing  
-- ⚙️ Service Detection (FTP, SSH, SMB, HTTP, Telnet etc.)
-- 📊 JSON Report Generation
+## 🛠️ Features
+- TCP Port Scanning
+- Banner Grabbing
+- Service Detection (FTP, SSH, SMB, HTTP, Telnet)
+- JSON Report Generation
 
-## Requirements
+## 💻 Requirements
 - Python 3.x
 - Kali Linux (recommended)
 
-## Usage
+## 🚀 Usage
 
 Basic scan:
-python3 scanner.py 192.168.220.129
-
 Custom port range:
-python3 scanner.py 192.168.220.129 -s 1 -e 500
-
 Save JSON report:
-python3 scanner.py 192.168.220.129 -r
 
-## Sample Results
-Tested on Metasploitable2 — Found 12 open ports:
-- Port 21 | FTP | vsFTPd 2.3.4
-- Port 22 | SSH | OpenSSH 4.7p1
-- Port 80 | HTTP
-- Port 445 | SMB
-- Port 23 | Telnet
 
-## Author
-Krishan Sharma
+## 🎯 Real Lab Results (Metasploitable2)
 
-## Disclaimer
-For authorized and educational testing only.Python network scanner with port scanning, banner grabbing & service detection — tested on Metasploitable2
+Tested on Metasploitable2 in isolated VirtualBox home lab.
+Found 12 open ports:
+
+| Port | Service | Banner |
+|------|---------|--------|
+| 21 | FTP | vsFTPd 2.3.4 |
+| 22 | SSH | OpenSSH 4.7p1 |
+| 23 | Telnet | - |
+| 25 | SMTP | Postfix Ubuntu |
+| 53 | DNS | - |
+| 80 | HTTP | - |
+| 111 | RPC | - |
+| 139 | NetBIOS | - |
+| 445 | SMB | - |
+| 512 | Rexec | - |
+| 513 | Rlogin | - |
+| 514 | Rsh | - |
+
+## 📁 Project Structure
+
+## 🔧 How It Works
+1. Takes target IP as input
+2. Scans specified port range using TCP sockets
+3. Grabs service banners
+4. Identifies running services
+5. Saves results as JSON report
+
+## 👨‍💻 Author
+**Krishan Sharma**
+Penetration Tester | Bug Hunter
+- GitHub: github.com/wptechguard-glitch
+- LinkedIn: linkedin.com/in/krishan-sharma-254aba304
+
+## ⚠️ Disclaimer
+This tool is for authorized and educational testing only.
+Do not use against systems without permission.
