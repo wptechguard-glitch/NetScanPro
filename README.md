@@ -51,8 +51,8 @@ Found 12 open ports:
 ## 👨‍💻 Author
 **Krishan Sharma**
 Penetration Tester | Bug Hunter
-- GitHub: github.com/wptechguard-glitch
-- LinkedIn: linkedin.com/in/krishan-sharma-254aba304
+- GitHub: https://github.com/wptechguard-glitch
+- LinkedIn: https://linkedin.com/in/krishan-sharma-254aba304
 
 ## ⚠️ Disclaimer
 This tool is for authorized and educational testing only.
