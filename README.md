@@ -35,4 +35,4 @@ Tested on Metasploitable2 — Found 12 open ports:
 Krishan Sharma
 
 ## Disclaimer
-For authorized and educational testing only.
+For authorized and educational testing only.Python network scanner with port scanning, banner grabbing & service detection — tested on Metasploitable2
